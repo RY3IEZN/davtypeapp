@@ -7,7 +7,7 @@ function Appbutton({ title, onPress }, color) {
   return (
     <TouchableOpacity
       style={styles.button}
-      onPress={() => console.log("the get started button was pressed")}
+      onPress={() => console.log("The register button was pressed")}
     >
       <Text style={styles.text}>{title}</Text>
     </TouchableOpacity>
@@ -21,8 +21,9 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     padding: 10,
-    width: "80%",
-    marginVertical: 50,
+    width: "90%",
+    height: "20%",
+    marginVertical: 5,
   },
   text: {
     color: "white",
